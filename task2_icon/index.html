@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+
+<!-- Task 2. SVG / Icon
+Create a button that will contain icon_01.
+When you click on the button, the icon should change to icon_02.
+Clicking again changes the icon back.  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script defer src="script.js"></script>
+
+    <title>SVG</title>
+</head>
+<body>
+<h2>SVG / Icon. Task 2</h2>
+
+<button class="btn">
+  <div class="btn_text">Click here!</div>
+  <div class="btn_icon">
+    <!--  SVG 1  -->
+    <svg id="btn_icon" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left-circle" viewиox="0 0 16 16">
+      <path fill-rule="evenodd" d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-5.904-2.854a.5.5 0 1 1 .707.708L6.707 9.95h2.768a.5.5 0 1 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.475a.5.5 0 1 1 1 0v2.768l4.096-4.097z"/>
+    </svg>
+  </div>
+  <div class="btn_icon_clicked">
+    <!--  SVG 2  -->
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-left-circle-fill" viewиox="0 0 16 16">
+      <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0m-5.904-2.803a.5.5 0 1 1 .707.707L6.707 10h2.768a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.525a.5.5 0 0 1 1 0v2.768l4.096-4.096z"/>
+    </svg>
+  </div>
+ </button>
+</body>
+</html>

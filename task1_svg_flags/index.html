@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+
+<!-- Task 1. SVG 
+Use SVG elements to depict the flags of five countries:
+Russia, France, Finland, Switzerland, Japan.
+Each flag SVG element must be 180 by 120 pixels.  -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <script src="script.js" defer></script>
+  <title>SVG</title>
+</head>
+<body>
+  <h2>SVG / Flags. Task 1</h2>
+        <h4>Russia</h4>
+    <div class="rect">
+      <svg  width="180" height="120">
+        <line style="stroke:white;stroke-width:40"
+        x1="" y1="21"
+        x2="180" y2="21"
+        />
+        <line style="stroke:rgb(3, 0, 167);stroke-width:40"
+        x1="0" y1="60"
+        x2="180" y2="60"
+        />
+        <line style="stroke:rgb(900,0,0);stroke-width:40"
+        x1="0" y1="100"
+        x2="180" y2="100"
+        />
+      </svg>
+    </div>
+    <h4>France</h4>
+    <div class="rect">
+      <svg width="180" height="120">
+        <line style="stroke:rgb(3, 0, 167);stroke-width:60"
+        x1="30" y1="0"
+        x2="30" y2="120"
+        />
+        <line style="stroke:#ffffff;stroke-width:60"
+        x1="90" y1="0"
+        x2="90" y2="120"
+        />
+        <line style="stroke:rgb(192, 0, 0);stroke-width:60"
+        x1="150" y1="0"
+        x2="150" y2="120"
+        />
+      </svg>
+    </div>
+    <h4>Finland</h4>
+    <div class="rect">
+      <svg  width="180" height="120" >
+        <line style="stroke:rgb(3, 0, 167);stroke-width:40"
+        x1="60" y1="0"
+        x2="60" y2="120"
+        />
+        <line style="stroke:rgb(3, 0, 167);stroke-width:40"
+        x1="0" y1="60"
+        x2="180" y2="60"
+        />
+      </svg>
+    </div>
+    <h4>Switzerland</h4>
+    <div class="rect">
+      <svg  width="180" height="120" style="background-color:rgb(255,0,0);">
+        <line style="stroke:white;stroke-width:30"
+        x1="90" y1="10"
+        x2="90" y2="110"
+        />
+        <line style="stroke:white;stroke-width:30"
+        x1="40" y1="60"
+        x2="140" y2="60"
+        />
+      </svg>
+    </div>
+    <h4>Japan</h4>
+    <div class="rect">
+      <svg viewbox="0 0 120 120" version="1.1"
+        xmlns="http://www.w3.org/2000/svg">
+        <circle cx="60" cy="40" r="25" fill="red"/>
+      </svg>
+    </div>
+</body>
+</html>

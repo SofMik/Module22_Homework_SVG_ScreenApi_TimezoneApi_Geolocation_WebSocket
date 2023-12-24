@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<!-- Task 5. Chat
+Create a chat based on the echo server wss://echo-ws-service.herokuapp.com/
+The interface consists of an input, where the text of the message is entered, 
+and a “Send” button. When you click on the “Send” button, 
+the message should appear in the correspondence window.
+The echo server will respond to you with the same message, 
+which must also be output to the chat.
+Add a mechanism for sending geolocation to the chat. 
+When you click on the “Geo-location” button, you need to send data 
+to the server and display a link to https://www.openstreetmap.org/ 
+with your geo-location in the chat. Do not output the message that the echo server sends back.
+-->
+
+<html>
+  <head>
+    <title>Weather Widget</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <h2>Task 5. Chat</h2>
+    <section>
+      <header>
+        <form name="test" method="post" action="">
+          <input type="textarea" id="input_text" placeholder="Write your message here">
+        </form>
+        <button class="btn j-btn-send">Send your message</button>
+        <button class="btn j-btn-geo">Check your geolocation</button>
+      </header>
+      <section class="false"> 
+      </section>
+      <main id="chat_section">   
+        <div id="output"></div>
+        <a id = "map-link"></a>
+      </main>
+    </section>
+  </body>
+</html>
